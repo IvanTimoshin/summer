@@ -5,7 +5,7 @@ import glob
 import struct
 import pickle
 import socket
-dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
+dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
 safeCoords = []
 def get_img():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
